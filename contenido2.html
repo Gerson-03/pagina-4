@@ -11,31 +11,23 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <div class="tabla">
-        <table border="1 solid black"width="50%" bgcolor="#759eff">
-            <p></font></font>  <tr><th bgcolor="#f8ffb8" colspan="4" align="center"> <font face="Arial"> DIFERENCIAS ENTRE EL PERRO Y EL HOMBRE</th></tr></p>
-            <tr align="center" > 
-                <th>DIFERENCIAS</th>
-                <th>PERRO PEQUEÑO</th>
-                <th>PERRO GRANDE</th>
-                <th>HOMBRE</th>
-             </tr>
-             <tr>
-                <td>Duracion Crecimiento</td>
-                <td>10 meses</td>
-                <td>18 a 24 meses</td>
-                <td>16 años</td>
-            </tr>
-            <tr align="center">
-                <td>Tiempo de gestacion</td>
-                <td colspan="2">58 a 63 dias</td>
-                <td>9 meses</td>
-            </tr>
-            <tr align="center">
-                <td>Duracio de la vida del pelo/cabello</td>
-                <td colspan="2">1 año</td>
-                <td>2 a 7 años</td>
-            </tr>
-         </table>
+        <form action="ejemplo.php" method="post">
+            <p>Nombres: <input placeholder="Escribe tus nombres" type="text" name="nombre" size="40"> </p>
+            <p>Apellidos: <input  placeholder="Escribe tus apellidos" type="text" name="apellidos" size="40"></p>
+            <p>Fecha de nacimiento: <input  placeholder="Escribe tu edad" type="number" name="edad" id="fecha"></p>
+            <p>Sexo:
+              <input type="radio" name="hm" value="h"> Hombre
+              <input type="radio" name="hm" value="m"> Mujer
+            </p>
+             <p>Opinio de la pagina:</p>
+              <textarea placeholder="Pon un comentario" name="" id="" cols="30" rows="10" size="40"></textarea>
+            <p>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar">
+            </p>
+            
+            
+          </form>
     </div>
     <img id="img4" src="imagenes/imagen-sol-p23313.webp" alt="">
 </body>
